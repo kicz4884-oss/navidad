@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <link rel="stylesheet" href="../Css/index.css">
+</head>
+<body>
+    <h1>NAVIDAD</h1>
+    <header>
+            <a href="../index.html"><h2>Bienvenido</h2></a>
+            <a href="../Html/Historia.html"><h2>Historia</h2></a>
+            <a href="../Html/Personajes.html"><h2>Personajes</h2></a>
+            <a href="../Html/Regalos.html"><h2>Regalos</h2></a>
+            <a href="../Html/Comida.html"><h2>Comida</h2></a>
+    </header>
+    <main>
+         <div class="cajas-sorpresa">
+            <button type="button" onclick="regalo1()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+            <button type="button" onclick="regalo2()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+            <button type="button" onclick="regalo3()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+            <button type="button" onclick="regalo4()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+            <button type="button" onclick="regalo5()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+            <button type="button" onclick="regalo6()">
+                <img src="../Images/Pregunta.jfif">
+            </button>
+        </div>
+        <div class="pantalla-regalo">
+            <h2>¡Bienvenido al apartado de Regalos!</h2>
+            <p>Aquí podrás elegir alguno al azar. ¡Buena suerte!</p>
+            <input type="text" id="texto-regalo" placeholder="Presiona una caja !!!Buena Suerte!!!">
+            <br><br>
+            <button type="button" onclick="reiniciar()">Volver a jugar</button>
+        </div>
+    </main>
+    <footer>
+        <h2>DISEÑO: Kevin Ismael Caceres Zapana Navidad</h2>
+    </footer>
+    <script src="../Js/regalos.js"></script>
+</body>
+</html>

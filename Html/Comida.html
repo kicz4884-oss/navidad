@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <link rel="stylesheet" href="../Css/index.css">
+</head>
+<body>
+    <h1>NAVIDAD</h1>
+    <header>
+            <a href="../index.html"><h2>Bienvenido</h2></a>
+            <a href="../Html/Historia.html"><h2>Historia</h2></a>
+            <a href="../Html/Personajes.html"><h2>Personajes</h2></a>
+            <a href="../Html/Regalos.html"><h2>Regalos</h2></a>
+            <a href="../Html/Comida.html"><h2>Comida</h2></a>
+    </header>
+    <main class="cuatro">
+        <div>
+            <form>
+                <button type="button" onclick="dos()"><img src="../Images/Paneton.jfif"/></button>
+            </form>
+            <h3>Paneton</h3>
+        </div>
+        <div>
+            <form>
+                <button type="button" onclick="tres()"><img src="../Images/Picana.jpg"/></button>
+            </form>
+            <h3>Picana</h3>
+        </div>
+        <div>
+            <form>
+                <button type="button" onclick="cuatro()"><img src="../Images/chocolate caliente.jfif"/></button>
+            </form>
+            <h3>chocolate caliente</h3>
+        </div>
+        <div>
+            <form>
+                <button type="button" onclick="cinco()"><img src="../Images/galletas.jfif"/></button>
+            </form>
+            <h3>galletas</h3>
+        </div class="Carrito">
+            <div>
+            <h3>Tu pedido:</h3>
+            <textarea id="lista" rows="4" cols="25" placeholder="Aquí aparecerán tus productos..."></textarea>
+            <br>
+            <label>Total (Bs):</label>
+            <input type="text" id="compras" value="0">
+            <br><br>
+            <button type="button" onclick="limpiar()">Vaciar carrito</button>
+            <button type="button" onclick="comprar()">Comprar</button>
+        </div>
+    </main>
+    <script src="../Js/Comida.js"></script>
+<footer>
+        <h2>DISEÑO: Kevin Ismael Caceres Zapana Navidad</h2>
+    </footer>
+</body>
+</html>
